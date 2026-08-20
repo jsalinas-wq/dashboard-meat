@@ -1,0 +1,9 @@
+{
+  "name": "meat-social-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Dashboard de rendimiento social MEAT — datos en vivo desde Google Sheets, servido en Netlify.",
+  "engines": {
+    "node": ">=18"
+  }
+}
