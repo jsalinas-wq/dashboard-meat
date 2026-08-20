@@ -5,5 +5,8 @@
   "description": "Dashboard de rendimiento social MEAT — datos en vivo desde Google Sheets, servido en Netlify.",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "xlsx": "0.18.5"
   }
 }
