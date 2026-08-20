@@ -2,11 +2,6 @@
   publish = "public"
   functions = "netlify/functions"
 
-# Bundles the static data JSON (refreshed by the scheduled rebuild, see SETUP.md)
-# alongside the "data" function so fs.readFileSync can find it at runtime.
-[functions."data"]
-  included_files = ["netlify/functions/_data/**"]
-
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
